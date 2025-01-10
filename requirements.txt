@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+numpy
+pandas
+requests
+opencv-python
+pillow
+h5py
