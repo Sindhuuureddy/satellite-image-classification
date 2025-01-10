@@ -1,8 +1,5 @@
 streamlit
 tensorflow
-numpy
-pandas
-requests
-opencv-python
-pillow
+keras
 h5py
+
