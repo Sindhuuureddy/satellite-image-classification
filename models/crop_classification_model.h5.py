@@ -21,7 +21,7 @@ def train_model():
     train_generator = train_datagen.flow_from_directory('path_to_train_data', target_size=(224, 224), batch_size=32, class_mode='categorical')
 
     model.fit(train_generator, epochs=10)
-    model.save("crop_classification_model.h5")  # Save the trained model
+    model.save("crop_classification_model.h5.py")  # Save the trained model
     print("Model trained and saved as 'crop_classification_model.h5'")
 
 train_model()  # Call this function to train and save your model
