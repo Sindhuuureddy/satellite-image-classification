@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load the pre-trained model
-MODEL_PATH = "models/crop_classification_model.h5.py"
+MODEL_PATH = "models/crop_classification_model.h5"
 model = load_model(MODEL_PATH)
 
 # Define the categories
